@@ -9,8 +9,8 @@
 /* Estilos de la cabecera */
 
 header {
-	background-color: #1c1c1c;
-	color: #fff;
+	background-color: #1416af;
+	color: #00ec14b0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -31,19 +31,20 @@ nav li {
 }
 
 nav a {
-	color: #fff;
+	color: #ff000073;
 	text-decoration: none;
+	color:#00ec14b0
 }
 
 /* Estilos de la sección de juegos destacados */
 
 .juegos-destacados {
 	padding: 50px;
-	background-color: #353535;
+	background-color: #2e2e2e;
 }
 
 .juegos-destacados h2 {
-	color: #fff;
+	color: #00ec14b0;
 	margin-bottom: 30px;
 	text-align: center;
 	font-size: 32px;
@@ -131,7 +132,7 @@ ul li {
 }
 
 ul li a {
-	color: #ccc;
+	color:#00ec14b0;
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -141,8 +142,8 @@ ul li a:hover {
 }
 
 footer {
-	background-color: #FFCDD2;
-	color: #FF4444;
+	background-color: #aa1e1ea1;
+	color: #000000;
 	padding: 10px;
 	text-align: center;
 }
