@@ -1,0 +1,148 @@
+/* Reset de estilos */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos de la cabecera */
+
+header {
+	background-color: #1c1c1c;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 30px;
+}
+
+.logo {
+	flex: 1;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilos de la sección de juegos destacados */
+
+.juegos-destacados {
+	padding: 50px;
+	background-color: #353535;
+}
+
+.juegos-destacados h2 {
+	color: #fff;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 32px;
+}
+
+.juego {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.juego img {
+	width: 100%;
+	max-width: 400px;
+}
+
+.juego h3 {
+	color: #fff;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.juego p {
+	color: #ccc;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.boton-descarga {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #ee5e5e;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.boton-descarga:hover {
+	background-color: #c43434;
+}
+
+/* Estilos de la sección de nuevos lanzamientos */
+
+.nuevos-lanzamientos {
+	padding: 50px;
+	background-color: #4d4d4d;
+}
+
+.nuevos-lanzamientos h2 {
+	color: #fff;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 32px;
+}
+
+/* Estilos de la sección de descargas */
+
+section {
+	padding: 50px;
+	background-color: #1c1c1c;
+	color: #fff;
+}
+
+section h2 {
+	color: #fff;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 32px;
+}
+
+section p {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
+
+ul li a {
+	color: #ccc;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+ul li a:hover {
+	color: #fff;
+}
+
+footer {
+	background-color: #FFCDD2;
+	color: #FF4444;
+	padding: 10px;
+	text-align: center;
+}
